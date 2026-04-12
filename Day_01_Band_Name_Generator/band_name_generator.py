@@ -47,3 +47,30 @@ def main():
 # Run the program
 if __name__ == "__main__":
     main()
+
+
+
+
+
+# ====================================
+# DEBUGGING EXAMPLES (commented out)
+# ====================================
+
+# Common mistake #1: forgetting to convert input type
+# age = input("Enter your age: ")
+# print(age + 5)   # ❌ TypeError: can only concatenate str to str
+
+# Fix:
+# age = int(input("Enter your age: "))
+# print(age + 5)
+
+# Common mistake #2: using a reserved keyword as variable name
+# class = "Python"   # ❌ SyntaxError
+
+# Common mistake #3: missing f-string or wrong concatenation
+# print("Your band name is" + band_name)  # missing space before band_name
+
+# Better: use f-strings (introduced later, but good to know)
+# print(f"Your band name is {band_name}")
+
+
