@@ -28,3 +28,16 @@ This program asks the user for two pieces of information and combines them to cr
 
 ## Why this project matters
 This is a small but important first step because it teaches how to take user input and turn it into an output the program creates dynamically.
+
+## ✨ Day 1 Highlights
+
+#### Day 1 focused on:
+
+- print statements
+- debugging
+- variables
+- input()
+- variable naming
+- beginner logic
+- building the Band Name Generator
+
