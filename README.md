@@ -1,21 +1,16 @@
 #  100 Days of Code – Python Journey
 
-A structured documentation of my journey through  
-**Dr. Angela Yu’s 100 Days of Code: The Complete Python Pro Bootcamp**. :contentReference[oaicite:0]{index=0}
 
 This repository contains my **daily Python projects, exercises, notes, mini challenges, debugging practice, and progress tracking**, starting from beginner fundamentals all the way to advanced real-world applications in automation, web development, data science, and machine learning.
 
----
-
-## 🔗 Course Link
-- 📘 **Udemy Course:** [100 Days of Code – The Complete Python Pro Bootcamp](https://www.udemy.com/course/100-days-of-code/) :contentReference[oaicite:1]{index=1}
+A structured documentation of my journey through  [**100 Days of Code – The Complete Python Pro Bootcamp**](https://www.udemy.com/course/100-days-of-code/)
 
 ---
 
 ## 🎯 My Mission
 This challenge is about much more than writing code daily.
 
-My goals are to:
+### My goals are to:
 
 - build strong Python fluency
 - improve problem-solving and debugging
@@ -24,7 +19,7 @@ My goals are to:
 - apply Python in **AI, cybersecurity, data, and automation**
 - document everything clearly for future review
 
-This repo is designed as both:
+### This repo is designed as both:
 
 - a **learning journey**
 - a **personal Python knowledge base**
@@ -32,6 +27,7 @@ This repo is designed as both:
 ---
 
 ## 🧠 Learning Philosophy
+
 Inspired by the course’s **12 Rules to Learn to Code**, this repository focuses on:
 
 - learning by building projects
@@ -49,6 +45,7 @@ Inspired by the course’s **12 Rules to Learn to Code**, this repository focuse
 The course gradually moves through these major stages: :contentReference[oaicite:2]{index=2}
 
 ### 🌱 Beginner Python
+
 - Variables
 - Input / Output
 - String manipulation
@@ -61,6 +58,7 @@ The course gradually moves through these major stages: :contentReference[oaicite
 - Basic projects
 
 ### 🚀 Intermediate Python
+
 - OOP
 - File handling
 - CSV / JSON
@@ -73,6 +71,7 @@ The course gradually moves through these major stages: :contentReference[oaicite
 - Command line tools
 
 ### 📊 Intermediate+
+
 - Pandas
 - Data cleaning
 - Data visualization
@@ -100,11 +99,13 @@ The course gradually moves through these major stages: :contentReference[oaicite
 
 ## 🔗 Daily Progress Links
 
-###🌱 Beginner
+### 🌱 Beginner
 
 Day 001 – [Band Name Generator](https://github.com/Alaa-Alotaibi/100-Days-of-Code---Python/tree/main/Day_01_Band_Name_Generator)
-Day 002 – Tip Calculator
-Day 003 – Treasure Island
+
+Day 002 – [Tip Calculator]()
+
+Day 003 – [Treasure Island]()
 
 🚀 More days coming soon...
 
