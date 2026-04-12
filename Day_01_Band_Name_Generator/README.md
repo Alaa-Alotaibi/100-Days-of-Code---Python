@@ -41,3 +41,30 @@ This is a small but important first step because it teaches how to take user inp
 - beginner logic
 - building the Band Name Generator
 
+
+---
+
+
+# Day 1 Notes – Python Basics
+
+## 1. Print Statements
+- `print()` outputs text to the console.
+- You can print strings: `print("Hello")`
+- Print multiple items: `print("Hello", "World")` (automatically adds space)
+- Escape sequences: `\n` new line, `\t` tab.
+
+## 2. Debugging
+Debugging is finding and fixing errors. Common beginner errors:
+- **SyntaxError**: Misspelled keywords, missing quotes, wrong indentation.
+- **TypeError**: Trying to combine different types (e.g., string + integer).
+- **NameError**: Using a variable before defining it.
+
+**Tip**: Read error messages carefully – they tell you the line number and what went wrong.
+
+## 3. Variables
+Variables store data. No need to declare a type – Python infers it.
+```python
+name = "Alice"      # string
+age = 25            # integer
+height = 5.8        # float
+is_student = True   # boolean
