@@ -1,47 +1,87 @@
-# 💸 Day 2: Tip Calculator
+# Day 2: Tip Calculator & BMI Calculator
 
-## 📌 Project Overview
-This project calculates how much each person should pay after splitting a bill and adding a chosen tip percentage.
+## What this project does
+This folder contains two small Python programs:
+- **Tip Calculator** – calculates how much each person should pay after adding a tip.
+- **BMI Calculator** – calculates the Body Mass Index from weight and height.
 
-It is one of the first projects focused on:
-- data types
-- mathematical operations
-- type conversion
-- rounding numbers
-- f-strings
+## What I learned
+- Working with floating-point numbers and rounding
+- Using `input()` to get numbers from the user
+- Converting strings to integers or floats (`int()`, `float()`)
+- Arithmetic operators: `+`, `-`, `*`, `/`, `**` (exponent)
+- f‑strings for clean output
+- String indexing (in the quiz)
+
+## How it works
+
+### Tip Calculator
+1. Asks for the total bill (float).
+2. Asks for the tip percentage (10, 12, or 15).
+3. Asks how many people will split the bill.
+4. Calculates:  
+   `(bill + bill * tip/100) / people`
+5. Prints the amount each person pays, rounded to 2 decimal places.
+
+### BMI Calculator
+1. Uses fixed height = 1.65 m and weight = 84 kg (as given in the exercise).
+2. Calculates BMI = weight / (height²).
+3. Prints the result (exact value expected: `30.85399449035813`).
+
+## Important notes
+- `input()` always returns a string – convert to `int` or `float` before calculations.
+- Division `/` always returns a float in Python.
+- Use `**` for exponentiation: `height ** 2`.
+- The tip calculator rounds down (`.2f` truncates/rounds to 2 decimals).
+
+## Common mistakes
+- Forgetting to convert the user input – causes `TypeError`.
+- Using `height * height` instead of `height ** 2` (both work, but `**` is clearer).
+- Not handling rounding – the result might show many decimals.
+
+## Why this project matters
+These programs introduce mathematical operations and user input handling – essential for any interactive application.
+
+## ✨ Day 2 Highlights
+- Tip calculator logic
+- BMI formula implementation
+- Understanding data types (int, float, string)
+- Order of operations (PEMDAS)
 
 ---
 
-## 🧠 What I Learned
-- `float()` for decimal numbers
-- `int()` for whole numbers
-- mathematical operators
-- order of operations
-- `round()`
-- formatting output with `:.2f`
-- user input handling
+# Day 2 Notes – Python Basics
 
----
+## 1. Numeric Data Types
+- `int` – whole numbers, e.g. `12`, `900`
+- `float` – decimal numbers, e.g. `300.0`, `0.37`
 
-## ⚙️ How It Works
-1. Ask the user for the total bill
-2. Ask for the tip percentage
-3. Ask how many people will split the bill
-4. Add the tip
-5. Divide equally
-6. Show final amount with 2 decimal places
+## 2. Type Conversion
+```python
+int("5")      # string → integer
+float("3.14") # string → float
+str(123)      # number → string
+```
 
----
 
-## 📚 Concepts Covered
-- Python data types
-- mathematical calculations
-- type casting
-- f-string formatting
-- clean variable naming
+## 3. Arithmetic Operators
 
----
+| Operator | Meaning       | Example      |
+|----------|---------------|--------------|
+| `+`      | addition      | `6 + 4` → 10 |
+| `-`      | subtraction   | `6 - 4` → 2  |
+| `*`      | multiplication| `6 * 4` → 24 |
+| `/`      | division      | `6 / 4` → 1.5|
+| `**`     | exponent      | `2 ** 3` → 8 |
+| `//`     | floor division| `7 // 3` → 2 |
+| `%`      | modulus       | `7 % 3` → 1  |
 
-## 🎯 Mini Exercise
-Inside `exercises/`:
-- **006 BMI Calculator**
+## 4. Order of Operations (PEMDAS)
+
+**P**arentheses → **E**xponents → **M**ultiplication/**D**ivision (left to right) → **A**ddition/**S**ubtraction (left to right).
+
+## 5. Rounding
+
+```python
+round(0.37333, 2)   # → 0.37
+f"{0.37333:.2f}"    # → "0.37"
